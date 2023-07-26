@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a5d8a14e24.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'button-shopnow': '#F85559',
+                        'bg-primary': 'url(im)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="font-lato container mx-auto">
+        <nav>
+            <div class="navbar bg-[#F85559] m-auto my-14 rounded-full">
+                <div class="flex gap-32 px-10 py-2">
+                    <div class="space-x-4 text-white text-lg font-medium text-right">
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Shop</a>
+                        <a href="">All Fruits</a>
+                    </div>
+                    <div class="flex items-center">
+                        <img src="images/logo.png" class="w-12 h-14" alt="">
+                        <h3 class="text-white text-4xl font-bold text-right">Fruit Burst</h3>
+                    </div>
+                    <div class=" flex items-center">
+                        <div class="form-control">
+                            <input type="text" placeholder="Search here"
+                                class="input input-bordered rounded-full w-24 md:w-96" />
+                        </div>
+                        <div class="w-5 h-4 -ml-12">
+                            <img src="images/frame-search.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="carousel w-full text-center lg:h-[550px]">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="images/banner1.png" class="w-full" />
+                <div class="before:absolute before:inset-0 before:w-full before:h-full before:content '' before:bg-gradient-to-b from-[#121212] to-[#12121200]"></div>
+                <div class="space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
+                    <h3 class="text-6xl font-extrabold">Exotic tastes at your <br> doorstep</h3>
+                    <p class="text-xl font-medium">We supply highly quality organic products</p>
+                    <button class="btn bg-button-shopnow border-none text-sm font-semibold md:px-8">Purchase</button>
+                </div>
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="images/banner2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="images/banner3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="images/banner4.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
