@@ -28,6 +28,16 @@
         .font-lato {
             font-family: 'Lato', sans-serif;
         }
+
+        @media (max-width: 768px) {
+            .center-hr {
+                margin: 0 auto;
+            }
+            .modal-box {
+            width: 80%; 
+            max-width: 320px;
+        }
+        }
     </style>
 </head>
 
@@ -111,7 +121,8 @@
                 <div
                     class="before:absolute before:inset-0 before:w-full before:h-full before:content '' before:bg-gradient-to-b from-[#121212] to-[#12121200]">
                 </div>
-                <div class="md:space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
+                <div
+                    class="md:space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
                     <h3 class="text-2xl font-semibold md:text-6xl md:font-extrabold w-72 md:w-auto">Exotic tastes at
                         your <br> doorstep</h3>
                     <p class="text-sm font-normal md:text-xl md:font-medium">We supply highly quality organic products
@@ -130,7 +141,8 @@
                 <div
                     class="before:absolute before:inset-0 before:w-full before:h-full before:content '' before:bg-gradient-to-b from-[#121212] to-[#12121200]">
                 </div>
-                <div class="md:space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
+                <div
+                    class="md:space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
                     <h3 class="text-2xl font-semibold md:text-6xl md:font-extrabold w-72 md:w-auto">Exotic tastes at
                         your <br> doorstep</h3>
                     <p class="text-sm font-normal md:text-xl md:font-medium">We supply highly quality organic products
@@ -149,12 +161,15 @@
                 <div
                     class="before:absolute before:inset-0 before:w-full before:h-full before:content '' before:bg-gradient-to-b from-[#121212] to-[#12121200]">
                 </div>
-                <div class="md:space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
+                <div
+                    class="md:space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
                     <h3 class="text-2xl font-semibold md:text-6xl md:font-extrabold w-72 md:w-auto">Exotic tastes at
                         your <br> doorstep</h3>
                     <p class="text-sm font-normal md:text-xl md:font-medium">We supply highly quality organic products
                     </p>
-                    <button class="mt-2 md:mt-auto btn bg-button-shopnow border-none text-sm text-white font-semibold md:px-8">Shop Now</button>
+                    <button
+                        class="mt-2 md:mt-auto btn bg-button-shopnow border-none text-sm text-white font-semibold md:px-8">Shop
+                        Now</button>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a>
@@ -163,7 +178,8 @@
             </div>
         </div>
 
-        <div class="card bg-base-100 flex flex-row gap-9 justify-evenly items-center drop-shadow-lg -mt-24 mx-40 py-10 invisible lg:visible">
+        <div
+            class="card bg-base-100 flex flex-row gap-9 justify-evenly items-center drop-shadow-lg -mt-24 mx-40 py-10 invisible lg:visible">
             <div class="text-center">
                 <figure><img src="images/fruit1.png" alt="" /></figure>
                 <h2 class="card-title">Strawberry</h2>
@@ -187,7 +203,8 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="text-center md:text-left space-y-6">
                     <h3 class="text-2xl md:text-5xl font-extrabold text-[#121212]">Deal of the day</h3>
-                    <p class="md:w-[100%] text-base font-medium text-[#12121299] py-2">Contrary to popular belief, is not simply random
+                    <p class="md:w-[100%] text-base font-medium text-[#12121299] py-2">Contrary to popular belief, is
+                        not simply random
                         text.
                         It has roots in
                         a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -248,8 +265,8 @@
                             <a onclick="my_modal_5.showModal()" class="text-[#F85559] text-lg font-bold"
                                 href="javascript:void(0)">Details</a>
                             <!-- took help from chatgpt for not getting auto refresh after clicking on details and also chatgpt provided me to use javascript:void(0) to prevent from auto refresh the website and scrolling to the top -->
-                            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                                <form method="dialog" class="modal-box w-96 container mx-auto">
+                            <dialog id="my_modal_5" class="modal w-[77%] md:w-auto modal-bottom sm:modal-middle">
+                                <form method="dialog" class="modal-box md:w-96 container mx-auto">
                                     <div class="flex justify-center">
                                         <img src="images/fruit6.png" alt="">
                                     </div>
@@ -300,7 +317,8 @@
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-2" />
-                            <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-1"
+                                checked />
                             <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-2" />
                             <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-[#EF8177] mask mask-star-2 mask-half-2" />
@@ -312,7 +330,7 @@
                         <div>
                             <a onclick="my_modal_6.showModal()" class="text-[#F85559] text-lg font-bold"
                                 href="javascript:void(0)">Details</a>
-                            <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
+                            <dialog id="my_modal_6" class="modal w-[77%] md:w-auto modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box w-96 container mx-auto">
                                     <div class="flex justify-center">
                                         <img src="images/fruit7.png" alt="">
@@ -377,7 +395,7 @@
                         <div>
                             <a onclick="my_modal_7.showModal()" class="text-[#F85559] text-lg font-bold"
                                 href="javascript:void(0)">Details</a>
-                            <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
+                            <dialog id="my_modal_7" class="modal w-[77%] md:w-auto modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box w-96 container mx-auto">
                                     <div class="flex justify-center">
                                         <img src="images/fruit8.png" alt="">
@@ -442,7 +460,7 @@
                         <div>
                             <a onclick="my_modal_8.showModal()" class="text-[#F85559] text-lg font-bold"
                                 href="javascript:void(0)">Details</a>
-                            <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+                            <dialog id="my_modal_8" class="modal w-[77%] md:w-auto modal-bottom sm:modal-middle">
                                 <form method="dialog" class="modal-box w-96 container mx-auto">
                                     <div class="flex justify-center">
                                         <img src="images/fruit9.png" alt="">
@@ -496,8 +514,10 @@
                     <div
                         class="space-y-7 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-0 text-white p-4 text-center">
                         <h3 class="text-xl md:text-5xl font-extrabold">Meet the team</h3>
-                        <p class="text-sm md:text-base font-medium">Contrary to popular belief, is not simply random text. It has
-                            roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <p class="text-sm md:text-base font-medium">Contrary to popular belief, is not simply random
+                            text. It has
+                            roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years
+                            old.</p>
                         <div class="flex flex-col lg:flex-row justify-center items-center space-x-5">
                             <div class="card w-64 ">
                                 <figure class="px-10 ">
@@ -566,8 +586,10 @@
                     <div
                         class="-mt-14 space-y-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-0 text-white p-4 text-center">
                         <h3 class="text-xl md:text-5xl font-extrabold">Meet the team</h3>
-                        <p class="text-sm md:text-base font-medium">Contrary to popular belief, is not simply random text. It has
-                            roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <p class="text-sm md:text-base font-medium">Contrary to popular belief, is not simply random
+                            text. It has
+                            roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years
+                            old.</p>
                         <div class="flex flex-col lg:flex-row justify-center items-center space-x-5">
                             <div class="card w-64 ">
                                 <figure class="px-10 ">
@@ -632,88 +654,100 @@
         <section class="my-28 text-[#121212] ">
             <div class="text-center grid md:grid-cols-1 space-y-5">
                 <h3 class="text-2xl md:text-5xl font-extrabold">Why Choose Us</h3>
-                <p class="text-sm md:text-base font-medium text-[#12121299]">Contrary to popular belief, is not simply random text.
+                <p class="text-sm md:text-base font-medium text-[#12121299]">Contrary to popular belief, is not simply
+                    random text.
                     It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.
                 </p>
             </div>
-            <div class="flex lg:flex-row space-x-12 my-12">
-                <div class="space-y-11">
-                    <div class="flex space-x-5">
-                        <div class="bg-cover bg-center w-12 h-12"
-                            style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
-                            <img class="w-6 h-6 mx-3 mt-3 " src="images/group 1.png" alt="">
-                        </div>
-                        <div>
-                            <h class="text-2xl font-extrabold">Dedicated Team</h3>
-                                <hr class="w-16">
-                                <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there
+            <div class="flex flex-col md:flex-row md:px-auto md:space-x-12 mt-12">
+                <div class="flex flex-col-reverse md:flex-row md:space-x-12">
+                    <div class="space-y-11">
+                        <div
+                            class="flex space-x-5 flex-col items-center justify-center md:flex-row md:items-start my-8 md:my-auto">
+                            <div class="bg-cover bg-center w-12 h-12"
+                                style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
+                                <img class="w-6 h-6 mx-3 mt-3 " src="images/group 1.png" alt="">
+                            </div>
+                            <div class="text-center md:text-left">
+                                <h3 class="text-2xl font-extrabold">Dedicated Team</h3>
+                                <hr class="w-16  center-hr">
+                                <p class="text-base font-medium text-[#12121299] w-80">Professional employees are
+                                    there
                                     for you to
                                     pick the most amazing and fresh fruits.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex space-x-5 flex-col items-center justify-center md:flex-row md:items-start my-8 md:my-auto">
+                            <div class="bg-cover bg-center w-12 h-12"
+                                style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
+                                <img class="w-6 h-6 mx-3 mt-3 " src="images/love 1.png" alt="">
+                            </div>
+                            <div class="text-center md:text-left">
+                                <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
+                                <hr class="w-16 center-hr">
+                                <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there
+                                    for
+                                    you to pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex space-x-5 flex-col items-center justify-center md:flex-row md:items-start my-8 md:my-auto">
+                            <div class="bg-cover bg-center w-12 h-12"
+                                style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
+                                <img class="w-6 h-6 mx-3 mt-3 " src="images/gift-box 1.png" alt="">
+                            </div>
+                            <div class="text-center md:text-left">
+                                <h3 class="text-2xl font-extrabold">Gift Certificates</h3>
+                                <hr class="w-16 center-hr">
+                                <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there
+                                    for
+                                    you to pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex space-x-5">
-                        <div class="bg-cover bg-center w-12 h-12"
-                            style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
-                            <img class="w-6 h-6 mx-3 mt-3 " src="images/love 1.png" alt="">
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
-                            <hr class="w-16">
-                            <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there for
-                                you to pick
-                                the most amazing and fresh fruits.</p>
-                        </div>
-                    </div>
-                    <div class="flex space-x-5">
-                        <div class="bg-cover bg-center w-12 h-12"
-                            style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
-                            <img class="w-6 h-6 mx-3 mt-3 " src="images/gift-box 1.png" alt="">
-                        </div>
-                        <div>
-                            <h3 class="text-2xl font-extrabold">Gift Certificates</h3>
-                            <hr class="w-16">
-                            <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there for
-                                you to pick
-                                the most amazing and fresh fruits.</p>
-                        </div>
+                    <div class="px-2">
+                        <img src="images/whychoose1.png" alt="">
                     </div>
                 </div>
-                <div>
-                    <img src="images/whychoose1.png" alt="">
-                </div>
-                <div class="space-y-11 text-right">
-                    <div class="flex justify-end space-x-5">
-                        <div class="text-right">
-                            <h class="text-2xl font-extrabold">Integrated Supplier</h3>
-                                <hr class="w-16 ml-auto">
+                <div class="space-y-11 text-center md:text-right">
+                    <div
+                        class="flex flex-col-reverse items-center md:items-end justify-center md:justify-end md:flex-row md:space-x-5 mt-11   ml-6 md:ml-auto md:mt-auto">
+                        <div class="md:text-right text-center">
+                            <h class="text-2xl font-extrabold text-center md:text-right">Integrated Supplier</h3>
+                                <hr class="w-16 center-hr ml-auto">
                                 <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there
                                     for you to pick the most amazing and fresh fruits.</p>
                         </div>
-                        <div class="bg-cover bg-center w-12 h-12"
+                        <div class="bg-cover bg-center w-12 h-12 md:mb-9"
                             style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
                             <img class="w-6 h-6 mx-3 mt-3 " src="images/fruit 1.png" alt="">
                         </div>
                     </div>
-                    <div class="flex justify-end space-x-5">
-                        <div class="text-right">
+                    <div
+                        class="flex flex-col-reverse items-center md:items-end justify-center md:justify-end md:flex-row md:space-x-5 mt-11   ml-6 md:ml-auto md:mt-auto">
+                        <div class="md:text-right text-center">
                             <h3 class="text-2xl font-extrabold">Sustainable Practice</h3>
-                            <hr class="w-16 ml-auto">
+                            <hr class="w-16 center-hr ml-auto">
                             <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there for
                                 you to pick the most amazing and fresh fruits.</p>
                         </div>
-                        <div class="bg-cover bg-center w-12 h-12"
+                        <div class="bg-cover bg-center w-12 h-12 md:mb-8"
                             style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
                             <img class="w-6 h-6 mx-3 mt-3 " src="images/ice-cream 1.png" alt="">
                         </div>
                     </div>
-                    <div class="flex justify-end space-x-5">
-                        <div class="text-right">
+                    <div
+                        class="flex flex-col-reverse items-center md:items-end justify-center md:justify-end md:flex-row md:space-x-5 mt-11   ml-6 md:ml-auto md:mt-auto">
+                        <div class="md:text-right text-center">
                             <h3 class="text-2xl font-extrabold">The Benefits Only</h3>
-                            <hr class="w-16 ml-auto">
+                            <hr class="w-16 center-hr ml-auto">
                             <p class="text-base font-medium text-[#12121299] w-80">Professional employees are there for
                                 you to pick the most amazing and fresh fruits.</p>
                         </div>
-                        <div class="bg-cover bg-center w-12 h-12"
+                        <div class="bg-cover bg-center w-12 h-12 md:mb-8"
                             style="background-image: url('images/Ellipse\ 2\ \(2\).png');">
                             <img class="w-6 h-6 mx-3 mt-3 " src="images/like 1.png" alt="">
                         </div>
@@ -727,13 +761,18 @@
             <img src="images/logo.png" alt="">
             <h1 class="text-4xl font-bold text-white">Fruit Burst</h1>
         </div>
-        <div class="grid grid-flow-col text-white text-lg font-semibold gap-14">
-            <a class="link link-hover">Home</a>
-            <a class="link link-hover">About Us</a>
-            <a class="link link-hover">Shop</a>
-            <a class="link link-hover">All Fruits</a>
-            <a class="link link-hover">Support</a>
-            <a class="link link-hover">My Account</a>
+        <div
+            class="text-white text-sm md:text-lg font-medium md:font-semibold md:flex gap-8">
+            <div class="flex gap-8">
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Shop</a>
+                <a class="link link-hover">All Fruits</a>
+            </div>
+            <div class="flex gap-8">
+                <a class="link link-hover">Support</a>
+                <a class="link link-hover">My Account</a>
+            </div>
         </div>
         <div class="grid grid-flow-col gap-10 mb-10">
             <a href=""><img src="images/twitter 1 (1).png" alt=""></a>
